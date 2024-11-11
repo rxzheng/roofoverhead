@@ -1,16 +1,44 @@
-<!--
- Copyright 2024 rxzheng
- 
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- 
-     https://www.apache.org/licenses/LICENSE-2.0
- 
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
--->
+<script>
+    export let y;
 
+    export let tabs = [
+        { name: "Events ", link: "#events" },
+        { name: "Statistics", link: "#statistics" },
+        { name: "About us", link: "https://google.com" },
+        // { name: "Contact", link: "" },
+        // {name: '', link: ''},
+    ];
+</script>
+
+<header
+    class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
+        (y > 0
+            ? " py-4 bg-slate-950 border-violet-950"
+            : " py-6 bg-transparent border-transparent")}
+>
+    <h1 class="font-medium">
+        <b class="font-bold poppins">Roofoverhead</b> <span class="">Initiative</span>
+    </h1>
+    <div class="sm:flex items-center gap-4 hidden">
+        {#each tabs as tab, index}
+            <a
+                href={tab.link}
+                class="duration-200 hover:text-violet-400"
+                target={index === 2 ? "_blank" : ""}
+            >
+                <p>{tab.name}</p>
+            </a>
+        {/each}
+       
+        <button
+            
+            class="blueShadow relative overflow-hidden px-5 py-2 group rounded-full bg-white text-slate-950"
+        >
+            <!-- svelte-ignore element_invalid_self_closing_tag -->
+            <div
+                class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+            />
+            <h4 class="relative z-9">Get in touch</h4>
+        </button>
+    </div>
+</header>
