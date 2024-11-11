@@ -4,19 +4,19 @@
     let steps = [
         {
             name: "Sleep",
-            icon: "fa-solid fa-cart-shopping",
+            icon: "fa-solid fa-bed",
             description:
                 "Sleepout event",
         },
         {
             name: "Music",
-            icon: "fa-solid fa-list-check",
+            icon: "fa-solid fa-music",
             description:
                 "Music event",
         },
         {
             name: "PJs at Work",
-            icon: "fa-solid fa-diagram-project",
+            icon: "fa-solid fa-shirt",
             description:
                 "PJs",
         },
@@ -63,7 +63,7 @@
             >
                 <!-- svelte-ignore element_invalid_self_closing_tag -->
                 <div
-                    class="absolute t>op-0 right-full w-full h-full bg-orange-400 opacity-20 group-hover:translate-x-full z-0 duration-200" href="google.com"
+                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" 
                 />
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </button>
