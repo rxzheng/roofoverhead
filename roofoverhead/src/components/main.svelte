@@ -25,19 +25,19 @@
     let benefits = [
         {
             metric: "10x",
-            name: "a self taught developer",
+            name: "passionate",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+                "a passionate organisation",
         },
         {
-            name: "a product design & UX finatic",
+            name: "impactful",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "We use our money effectively and where it matters.",
         },
         {
-            name: "an excellent communicator",
+            name: "helpful",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+                "We create events that matter and help those in need.",
         },
     ];
 </script>
@@ -61,8 +61,9 @@
             <button
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
+                <!-- svelte-ignore element_invalid_self_closing_tag -->
                 <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" href="google.com"
+                    class="absolute t>op-0 right-full w-full h-full bg-orange-400 opacity-20 group-hover:translate-x-full z-0 duration-200" href="google.com"
                 />
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </button>
@@ -70,7 +71,7 @@
         <div class="relative shadow-2xl grid place-items-center">
             <img
                 src={"images/profile.png"}
-                alt="homeless man"
+                alt="Homeless man"
                 class="object-cover z-[2] max-h-[90vh]"
             />
         </div>
@@ -79,7 +80,7 @@
                 class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
             >
                 <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-violet-800 to-indigo-800 specialSpin"
+                    class="bg-gradient-to-r absolute inset-[-20px]  from-orange-800 to-indigo-800 specialSpin"
                 />
             </div>
 
@@ -96,9 +97,9 @@
             </h3>
         </div>
         <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://www.youtube.com/watch?v=Xu73iBgHs4I"
             target="_blank"
-            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
+            class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-orange-700 duration-200"
         >
             <i class="fa-regular fa-circle-play" />
             <p>Watch the video</p>
@@ -107,11 +108,11 @@
             <Step step={steps[0]}>
                 <p>
                     Sleepout event is where  <strong
-                        class="text-violet-400"
+                        class="text-orange-400"
                         >people</strong
                     > sleepout in sleeping bags outdoors.
                     Experience what it feels to be homeless and  <strong
-                    class="text-violet-400">understand</strong> the pain that they have to go through everyday. 
+                    class="text-orange-400">understand</strong> the pain that they have to go through everyday. 
                 </p>
             </Step>
             <Step step={steps[1]}>
@@ -119,18 +120,18 @@
                     A free music event that allows you to  <strong
                         class="text-orange-400">raise funds</strong
                     >,
-                    <strong class="text-violet-400">for people in need</strong
+                    <strong class="text-orange-400">for people in need</strong
                     > while enjoying a 
-                    & <strong class="text-violet-400">a day </strong> the this year's best hits!
+                    & <strong class="text-orange-400">a day </strong> the this year's best hits!
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    PJs at work  <strong class="text-violet-400"
+                    PJs at work  <strong class="text-orange-400"
                         >allows your team</strong
                     >
                     to enjoy a 
-                    <strong class="text-violet-400">day </strong>, of work in the comfort of your own PJs!
+                    <strong class="text-orange-400">day </strong>, of work in the comfort of your own PJs!
                   
                 </p>
             </Step>
@@ -140,15 +141,15 @@
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
-        <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
+        <!-- <div class="z-[-1] bg-orange-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
         <div
-            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
+            class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-orange-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-orange-700 py-4"
         >
             <h6 class="text-large sm:text-xl md:text-2xl">
                 Want to know more?
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-violet-400">about</span> us.
+                A bit <span class="poppins text-orange-400">about</span> us.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
@@ -156,21 +157,7 @@
         </p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
-                <!-- <div class="flex flex-col gap-2 mx-auto">
-                    <div class="flex items-end gap-4">
-                        <p
-                            class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
-                        >
-                            {benefit.metric}
-                        </p>
-                        <p
-                            class="text-xl sm:text-2xl md:text-3xl capitalize pb-2"
-                        >
-                            {benefit.name}
-                        </p>
-                    </div>
-                    <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
+                
                 <div class="flex gap-6 sm:gap-8">
                     <p
                         class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
@@ -187,7 +174,7 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            The <span class="text-orange-400">Complete</span> Package
         </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
@@ -196,12 +183,12 @@
                 <thead class={"border-b border-solid border-slate-200  "}>
                     <tr class="">
                         <th />
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
+                        <th class="whitespace-nowrap p-2 px-4">Org #1</th>
+                        <th class="whitespace-nowrap p-2 px-4">Org #2</th>
+                        <th class="whitespace-nowrap p-2 px-4">Org #3</th>
                         <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
-                            >Me</th
+                            class="bg-orange-700 text-white whitespace-nowrap p-4 px-8"
+                            >Roofoverhead</th
                         >
                     </tr>
                 </thead>
@@ -209,7 +196,7 @@
                     <tr class="border-b border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Dedication</td
+                            >Passion</td
                         >
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -219,7 +206,7 @@
                     <tr class="border-b border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Critical Thought</td
+                            >Impact</td
                         >
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -229,7 +216,7 @@
                     <tr>
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
+                            >Fun</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -239,7 +226,7 @@
                     <tr class="border-t border-solid border-slate-200">
                         <td
                             class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
+                            >Quality</td
                         >
                         <td><i class="fa-solid fa-check text-slate-500" /></td>
                         <td><i class="fa-solid fa-xmark text-slate-500" /></td>
@@ -252,6 +239,6 @@
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto">So why not invest?</p>
+        <p class="mx-auto">Help us with our mission by donating or attending our fundraising events.</p>
     </section>
 </main>

@@ -4,7 +4,7 @@
     export let tabs = [
         { name: "Events ", link: "#events" },
         { name: "Statistics", link: "#statistics" },
-        { name: "About us", link: "https://google.com" },
+        { name: "About us", link: "#aboutus" },
         // { name: "Contact", link: "" },
         // {name: '', link: ''},
     ];
@@ -13,17 +13,17 @@
 <header
     class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border-b border-solid " +
         (y > 0
-            ? " py-4 bg-slate-950 border-violet-950"
+            ? " py-4 bg-slate-950 border-orange-950"
             : " py-6 bg-transparent border-transparent")}
 >
     <h1 class="font-medium">
-        <b class="font-bold poppins">Roofoverhead</b> <span class="">Initiative</span>
+         <span class="text-orange-400">Roofoverhead Initiative</span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
             <a
                 href={tab.link}
-                class="duration-200 hover:text-violet-400"
+                class="duration-200 hover:text-orange-400"
                 target={index === 2 ? "_blank" : ""}
             >
                 <p>{tab.name}</p>
