@@ -16,8 +16,9 @@
             ? " py-4 bg-slate-950 border-orange-950"
             : " py-6 bg-transparent border-transparent")}
 >
-    <h1 class="font-medium">
-         <span class="text-orange-400">Roofoverhead Initiative</span>
+    <h1 class="font-medium flex items-center space-x-2">
+        <!-- svelte-ignore a11y_consider_explicit_label -->
+        <a href="/"><img src= "images/logo.png" class="w-10"alt = "logo"></a> <span class="text-orange-400">Roofoverhead Initiative</span>
     </h1>
     <div class="sm:flex items-center gap-4 hidden">
         {#each tabs as tab, index}
