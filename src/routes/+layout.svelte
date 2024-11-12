@@ -20,10 +20,12 @@
                 ? " opacity-full pointer-events-auto"
                 : " pointer-events-none opacity-0")}
     >
+        <!-- svelte-ignore a11y_consider_explicit_label -->
         <button
             on:click={goTop}
             class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center"
         >
+            <!-- svelte-ignore element_invalid_self_closing_tag -->
             <i class="fa-solid fa-arrow-up" />
         </button>
     </div>
