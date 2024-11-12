@@ -1,1 +1,1 @@
-<h1> Hi!</h1>
+<h1> The events that we are hosting</h1>

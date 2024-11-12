@@ -2,4 +2,4 @@
     import About from "../../components/About.svelte"
     
 </script>
-<Main/>
+<About/>

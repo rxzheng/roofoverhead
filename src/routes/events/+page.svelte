@@ -1,1 +1,5 @@
-<h1>Hi!</h1>
+<script>
+    import Events from "../../components/Events.svelte"
+    
+</script>
+<Events/>
