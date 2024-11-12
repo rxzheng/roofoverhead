@@ -6,7 +6,9 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"deploy":"npx gh-pages -d dist",
+		"homepage": "https://rxzheng.github.io/roofoverhead"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
