@@ -23,5 +23,8 @@
 		"svelte": "^5.0.0",
 		"tailwindcss": "^3.4.9",
 		"vite": "^5.0.3"
+	},
+	"dependencies": {
+		"cobe": "^0.6.3"
 	}
 }
