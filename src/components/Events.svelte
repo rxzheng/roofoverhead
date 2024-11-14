@@ -39,7 +39,7 @@
               </p>
           </div>
           <div class="relative shadow-2xl">
-              <img src="images/sleepout.jpg" alt="Sleepout event" class="object-cover rounded-lg w-full h-auto"/>
+              <img src="images/sleepout.jpg" alt="Sleepout event" class="object-cover rounded-lg w-full h-auto image-style"/>
           </div>
       </div>
 
@@ -54,7 +54,7 @@
               </p>
           </div>
           <div class="relative shadow-2xl">
-              <img src="images/music_festival.jpg" alt="Music Festival" class="object-cover rounded-lg w-full h-auto"/>
+              <img src="images/music_festival.jpg" alt="Music Festival" class="object-cover rounded-lg w-full h-auto image-style"/>
           </div>
       </div>
 
@@ -69,7 +69,7 @@
               </p>
           </div>
           <div class="relative shadow-2xl">
-              <img src="images/pjs_at_work.jpg" alt="PJ's at Work" class="object-cover rounded-lg w-full h-auto"/>
+              <img src="images/pjs_at_work.jpg" alt="PJ's at Work" class="object-cover rounded-lg w-full h-auto image-style"/>
           </div>
       </div>
   </section>
@@ -86,5 +86,11 @@
 
   p {
       line-height: 1.6; /* Enhance readability */
+  }
+
+  /* Add rounded edges and orange outline to images */
+  .image-style {
+      border-radius: 12px; /* Round the edges */
+      border: 4px solid #ea580c; /* Orange border */
   }
 </style>
