@@ -58,7 +58,7 @@
             <p class="text-base sm:text-lg md:text-xl">
                 <span class="text-orange-400"> Roofoverhead Initiative</span> is passionate about creating new <span class="text-orange-400">pathways</span> for those in need.
             </p>
-            <button
+            <a href="/about"
                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
             >
                 <!-- svelte-ignore element_invalid_self_closing_tag -->
@@ -66,7 +66,7 @@
                     class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" 
                 />
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
+        </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
