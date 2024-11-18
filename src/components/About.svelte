@@ -88,7 +88,7 @@
       {#each teamMembers as member}
         <div class="team-box">
           <div class="team-member-name">{member.name}</div>
-          <div class="team-member-image"><img src="{member.image}" alt="{member.name}">{member.image}</div>
+          <div class="team-member-image"><img src="{member.image}" alt="image"></div>
           <div class="team-member-description">{member.description}</div>
           
         </div>
